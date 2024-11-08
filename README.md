@@ -1,12 +1,10 @@
 # Retrieval-Augmented Generation (RAG) based President Biden's Speech 2023
 
-<p align="center">
-  <img src="https://github.com/akhilchibber/RAG-BidenSpeech/blob/main/President_Biden.png?raw=true" alt="earthml Logo">
-</p>
-
 ## Dataset
 
 The dataset used in this project can be found on Kaggle: [President Biden Speech Dataset](https://www.kaggle.com/datasets/whegedusich/president-bidens-state-of-the-union-2023/data).
+
+![Biden image](President_Biden.png)
 
 ## Objective
 
@@ -21,9 +19,8 @@ The goal is to develop a Q&A system capable of delivering informed responses on 
 ## Functionality
 
 The system retrieves information from ChromaDB based on user queries about the SOTU address, then uses Llama 2.0 to generate responses. This ensures accuracy and broader contextual understanding, resulting in precise and enriched answers.
-<p align="center">
-  <img src="https://github.com/akhilchibber/RAG-BidenSpeech/blob/main/RAG.png?raw=true" alt="earthml Logo">
-</p>
+
+![RAG image](RAG.png)
 
 ## Use Case
 
